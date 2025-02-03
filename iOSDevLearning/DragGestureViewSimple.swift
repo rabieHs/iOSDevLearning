@@ -21,7 +21,7 @@ struct DragGestureViewSimple: View {
                         }
                     }
                     .onEnded{ value in
-                        withAnimation(.spring()) {
+                        withAnimation(.spring) {
                             offset = .zero
                         }
                     }
