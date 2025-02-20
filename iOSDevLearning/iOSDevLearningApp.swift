@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSDevLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            DownloadDataWithCombineView()
+            FileManagerView()
         }
     }
 }
